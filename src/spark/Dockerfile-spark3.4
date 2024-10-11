@@ -28,8 +28,7 @@ RUN curl https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-cl
 # Configure SLF4J
 ENV SLF4J_VERSION=1.7.36
 
-RUN curl https://repo1.maven.org/maven2/org/slf4j/slf4j-api/${SLF4J_VERSION}/slf4j-api-${SLF4J_VERSION}.jar -L -o ${SPARK_HOME}/jars/slf4j-api-${SLF4J_VERSION}.jar
-
+#RUN curl https://repo1.maven.org/maven2/org/slf4j/slf4j-api/${SLF4J_VERSION}/slf4j-api-${SLF4J_VERSION}.jar -L -o ${SPARK_HOME}/jars/slf4j-api-${SLF4J_VERSION}.jar
 
 
 # Configure ZSH
