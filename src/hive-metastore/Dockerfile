@@ -1,5 +1,5 @@
 #FROM starburstdata/hive:3.1.2-e.18
-FROM starburstdata/hive:3.1.2-e.19
+FROM starburstdata/hive:3.1.2-e.18
 ENV REGION=""
 ENV GOOGLE_CLOUD_KEY_FILE_PATH=""
 ENV AZURE_ADL_CLIENT_ID=""
