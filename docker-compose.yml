@@ -24,6 +24,31 @@ services:
       start_period: 5s
     restart: always
 
+  trino:
+    container_name: trino
+    hostname: trino
+    image: "trinodb/trino:425"
+    restart: always
+    ports:
+      - "8889:8889"
+    volumes:
+      - ./src/trino/etc-coordinator:/etc/trino
+      - ./src/trino/catalog:/etc/trino/catalog
+    depends_on:
+      - hive-metastore
+
+  trino-worker:
+    profiles: [ "trino-worker" ]
+    container_name: trino-worker
+    hostname: trino-worker
+    image: "trinodb/trino:425"
+    restart: always
+    volumes:
+      - ./src/trino/etc-worker:/etc/trino
+      - ./src/trino/catalog:/etc/trino/catalog
+    depends_on:
+      - trino
+
   minio:
     container_name: minio
     hostname: minio
@@ -87,8 +112,8 @@ services:
 
   spark-iceberg:
     build:
-      dockerfile: ./src/spark/Dockerfile-spark3.4
-    image: dataincode/openlakehouse:spark-3.4
+      dockerfile: ./src/spark/Dockerfile-spark3.5
+    image: dataincode/openlakehouse:spark-3.5
     container_name: spark-iceberg
     hostname: spark-iceberg
     entrypoint: |
