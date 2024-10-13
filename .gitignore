@@ -1,4 +1,5 @@
 volume/
 env/
 .env
-notebook/
+notebook/.ipynb_checkpoints
+notebook/.Trash-0
