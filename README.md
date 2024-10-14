@@ -44,6 +44,10 @@ Baixe o projeto
 ```sh
 git clone https://github.com/ac-gomes/spark-iceberg-hive
 ```
+```sh
+cd spark-iceberg-hive
+```
+
 Execute o comando no terminal do Linux
 
 ```sh
@@ -92,4 +96,4 @@ What Is Apache Iceberg? Features & Benefits: https://www.dremio.com/resources/gu
 
 Iceberg Table Spec: https://iceberg.apache.org/spec/
 
-# Enjoy
+# Enjoy!
