@@ -78,6 +78,29 @@ Ao final da execução do docker os recurso estão acessiveis nos endereço:
 
 ![Data Lakehouse](./img/resutado_esperado.png)
 
+## Tutorial em Video
+
+YouTube: https://youtu.be/OSpUWmOFYQ4
+
+## Ambiente de Desenvolvimento
+
+```sh
+>> wsl -l -v
+  NAME            STATE           VERSION
+* Ubuntu-20.04    Running         2
+```
+
+```sh
+>> docker version
+
+ Version:           27.3.1
+ API version:       1.47
+ Go version:        go1.22.7
+ Git commit:        ce12230
+ Built:             Fri Sep 20 11:41:03 2024
+ OS/Arch:           linux/amd64
+```
+
 ## Para mais detalhes consulte a documentação
 
 Apache Iceberg e Hive: https://iceberg.apache.org/docs/latest/hive/

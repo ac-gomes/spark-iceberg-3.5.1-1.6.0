@@ -1,3 +1,3 @@
-jupyterlab==4.0.5
-pyiceberg[pyarrow,s3fs,sql-postgres]==0.6.0
-jupysql==0.10.0
+jupyterlab==4.2.5
+pyiceberg[pyarrow,s3fs,duckdb,pandas,hive]==0.6.0
+jupysql==0.10.14
