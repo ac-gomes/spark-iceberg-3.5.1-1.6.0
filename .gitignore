@@ -3,3 +3,4 @@ env/
 .env
 notebook/.ipynb_checkpoints
 notebook/.Trash-0
+*.ipynb_checkpoints
