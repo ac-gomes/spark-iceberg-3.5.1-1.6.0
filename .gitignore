@@ -4,3 +4,5 @@ env/
 notebook/.ipynb_checkpoints
 notebook/.Trash-0
 *.ipynb_checkpoints
+notebook/Spark_Magic/
+notebook/Engineering/.ipynb_checkpoints
