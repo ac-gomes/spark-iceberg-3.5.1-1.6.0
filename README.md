@@ -78,21 +78,14 @@ Ao final da execução do docker os recurso estão acessiveis nos endereço:
 
 ![Data Lakehouse](./img/resutado_esperado.png)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> af54a917d2ed4dcf16a6b1154b2e3b311fbb48c0
 ## Tutorial em Video
 
 YouTube: https://youtu.be/OSpUWmOFYQ4
 
-<<<<<<< HEAD
 ## Introdução ao Apache Iceberg
 
 YouTube: https://www.youtube.com/watch?v=sVNRh9yE0_8
 
-=======
->>>>>>> af54a917d2ed4dcf16a6b1154b2e3b311fbb48c0
 ## Ambiente de Desenvolvimento
 
 ```sh
@@ -112,10 +105,6 @@ YouTube: https://www.youtube.com/watch?v=sVNRh9yE0_8
  OS/Arch:           linux/amd64
 ```
 
-<<<<<<< HEAD
-=======
-
->>>>>>> af54a917d2ed4dcf16a6b1154b2e3b311fbb48c0
 ## Para mais detalhes consulte a documentação
 
 Apache Iceberg e Hive: https://iceberg.apache.org/docs/latest/hive/
