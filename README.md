@@ -82,6 +82,10 @@ Ao final da execução do docker os recurso estão acessiveis nos endereço:
 
 YouTube: https://youtu.be/OSpUWmOFYQ4
 
+## Introdução ao Apache Iceberg
+
+YouTube: https://www.youtube.com/watch?v=sVNRh9yE0_8
+
 ## Ambiente de Desenvolvimento
 
 ```sh

@@ -4,5 +4,10 @@ env/
 notebook/.ipynb_checkpoints
 notebook/.Trash-0
 *.ipynb_checkpoints
-notebook/Spark_Magic/
 notebook/Engineering/.ipynb_checkpoints
+
+notebook/Spark_Magic
+04_Expire_Snapshots.ipynb
+05_Optimize_Binpack_vs_Sort.ipynb
+06_COW_vs_MOR.ipynb
+03_Branches_and_Tags.ipynb
