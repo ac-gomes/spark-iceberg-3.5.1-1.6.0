@@ -84,7 +84,10 @@ YouTube: https://youtu.be/OSpUWmOFYQ4
 
 ## Introdução ao Apache Iceberg
 
-YouTube: https://www.youtube.com/watch?v=sVNRh9yE0_8
+Primeiras Impressões: https://www.youtube.com/watch?v=sVNRh9yE0_8
+
+Branches & Tags: https://www.youtube.com/watch?v=shfkCf_9ZwQ&t=596s
+
 
 ## Ambiente de Desenvolvimento
 
